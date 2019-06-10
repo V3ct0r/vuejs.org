@@ -74,7 +74,7 @@ En el caso de los atributos booleanos, donde su mera existencia implica `true`, 
 
 Si `isButtonDisabled` tiene el valor de `null`, `undefined` o `false`, el atributo `desabled` ni siquiera se incluirá en el elemento `<button>` representado.
 
-### Usindo Expresiones JavaScript 
+### Usando Expresiones JavaScript 
 
 Hasta ahora solo hemos estado vinculando a simples claves de propiedad en nuestras template. Pero Vue.js realmente admite el poder completo de las expresiones de JavaScript dentro de todos los enlaces de datos:
 
@@ -98,7 +98,7 @@ Estas expresiones se evaluarán como JavaScript en el ámbito de datos de la ins
 {{ if (ok) { return message } }}
 ```
 
-<p class="tip">Las expresiones de template están en un espacio aislado y solo tienen acceso a una lista blanca de elementos globales como `Matemáticas` y `Fecha`. No debe intentar acceder a globales definidos por el usuario en expresiones de template.</p>
+<p class="tip">Las expresiones de template están en un espacio aislado y solo tienen acceso a una lista blanca de elementos globales como `Math` y `Date`. No debe intentar acceder a globales definidos por el usuario en expresiones de template.</p>
 
 ## Directivas
 
